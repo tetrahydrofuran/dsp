@@ -54,20 +54,20 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-* `ls`  
+* `ls`
 List directory contents
-* `ls -a`  
+* `ls -a`
 List directory, inculde hidden
-* `ls -l`  
+* `ls -l`
 List directory, long format
-* `ls -lh`  
+* `ls -lh`
 List directory, long format, human-readable file size
-* `ls -lah`  
+* `ls -lah`
 List directory, include hidden, long format, human-readable file-size
-* `ls -t`  
+* `ls -t`
 List directory, sorted by last modified
-* `ls -Glp`  
-List direcotry, long format without group names, append
+* `ls -Glp`
+List directory, long format without group names, append
 
 
 
