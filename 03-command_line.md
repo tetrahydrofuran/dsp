@@ -20,25 +20,25 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-* `pwd`
+>> * `pwd`
 Show current working directory path
-* `mkdir`
+>> * `mkdir`
 Create directory
-* `rm [dir]` 
+>> * `rm [dir]` 
 Delete directory
-* `touch`
+>> * `touch`
 Create file
-* `rm [file]`
+>> * `rm [file]`
 Delete file
-* `mv [source] [destination/renamed]`
+>> * `mv [source] [destination/renamed]`
 Rename file
-* `ls -a`
+>> * `ls -a`
 List hidden files
-* `cp [source] [destination]`
+>> * `cp [source] [destination]`
 Copy from one directory to other
-* `cd`
+>> * `cd`
 Change directory
-* `cat`
+>> * `cat`
 Concatenate or view
 
 ---
@@ -54,19 +54,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-* `ls`
+>> * `ls`
 List directory contents
-* `ls -a`
+>> * `ls -a`
 List directory, inculde hidden
-* `ls -l`
+>> * `ls -l`
 List directory, long format
-* `ls -lh`
+>> * `ls -lh`
 List directory, long format, human-readable file size
-* `ls -lah`
+>> * `ls -lah`
 List directory, include hidden, long format, human-readable file-size
-* `ls -t`
+>> * `ls -t`
 List directory, sorted by last modified
-* `ls -Glp`
+>> * `ls -Glp`
 List directory, long format without group names, append
 
 
@@ -77,15 +77,15 @@ List directory, long format without group names, append
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-* `ls -1`
+>> * `ls -1`
 Display each file on new line
-* `ls -r`
+>> * `ls -r`
 Display in reverse order
-* `ls -R`
+>> * `ls -R`
 Include subdirectories
-* `ls -u`
+>> * `ls -u`
 Display, sort by access time
-* `ls -x`
+>> * `ls -x`
 Display entries in rows
 
 ---
@@ -94,10 +94,10 @@ Display entries in rows
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` can pass multiple user inputs as parameters to functions or be used to chain commands.
+>> `xargs` can pass multiple user inputs as parameters to functions or be used to chain commands.
 
-For example, to generate multiple directories in one command:
-`echo 'dir1 dir2 dir3' | xargs mkdir`
+>> For example, to generate multiple directories in one command:
+>> `echo 'dir1 dir2 dir3' | xargs mkdir`
 
 
  
