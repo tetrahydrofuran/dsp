@@ -28,8 +28,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ''  Rename file
 ''  List hidden files
 ''  Copy from one directory to other
+
 'pwd'  
 Print Working Directory
+
 ''
 
 ---
@@ -47,18 +49,25 @@ What do the following commands do:
 
 `ls`  
 List directory contents
+
 `ls -a`  
 List directory, inculde hidden
+
 `ls -l`  
 List directory, long format
+
 `ls -lh`  
 List directory, long format, human-readable file size
+
 `ls -lah`  
 List directory, include hidden, long format, human-readable file-size
+
 `ls -t`  
 List directory, sorted by last modified
+
 `ls -Glp`  
 List direcotry, long format without group names, append
+
 
 
 ---
