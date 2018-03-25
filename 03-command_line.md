@@ -20,19 +20,35 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-''  Show current working directory path
-''  Create directory
-''  Delete directory
-''  Create file
-''  Delete file
-''  Rename file
-''  List hidden files
-''  Copy from one directory to other
+`pwd`
+Show current working directory path
 
-'pwd'  
-Print Working Directory
+`mkdir`
+Create directory
 
-''
+`rm [dir]` 
+Delete directory
+
+`touch`
+Create file
+
+`rm [file]`  
+Delete file
+
+`mv [source] [destination/renamed]`
+Rename file
+
+`ls -a`  
+List hidden files
+
+`cp [source] [destination]`
+Copy from one directory to other
+
+`cd`
+Change directory
+
+`cat`
+Concatenate or view
 
 ---
 
