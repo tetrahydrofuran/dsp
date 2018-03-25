@@ -32,7 +32,7 @@ Create file
 Delete file
 * `mv [source] [destination/renamed]`
 Rename file
-* `ls -a`  
+* `ls -a`
 List hidden files
 * `cp [source] [destination]`
 Copy from one directory to other
