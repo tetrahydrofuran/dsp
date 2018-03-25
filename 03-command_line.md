@@ -28,7 +28,7 @@ Create directory
 Delete directory
 * `touch`
 Create file
-* `rm [file]`  
+* `rm [file]`
 Delete file
 * `mv [source] [destination/renamed]`
 Rename file
@@ -77,7 +77,16 @@ List direcotry, long format without group names, append
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* `ls -1`
+Display each file on new line
+* `ls -r`
+Display in reverse order
+* `ls -R`
+Include subdirectories
+* `ls -u`
+Display, sort by access time
+* `ls -x`
+Display entries in rows
 
 ---
 
@@ -85,7 +94,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` can pass multiple user inputs as parameters to functions or be used to chain commands.
+
+For example, to generate multiple directories in one command:
+`echo 'dir1 dir2 dir3' | xargs mkdir`
+
 
  
 
