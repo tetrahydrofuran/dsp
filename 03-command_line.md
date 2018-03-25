@@ -20,34 +20,25 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-`pwd`
+* `pwd`
 Show current working directory path
-
-`mkdir`
+* `mkdir`
 Create directory
-
-`rm [dir]` 
+* `rm [dir]` 
 Delete directory
-
-`touch`
+* `touch`
 Create file
-
-`rm [file]`  
+* `rm [file]`  
 Delete file
-
-`mv [source] [destination/renamed]`
+* `mv [source] [destination/renamed]`
 Rename file
-
-`ls -a`  
+* `ls -a`  
 List hidden files
-
-`cp [source] [destination]`
+* `cp [source] [destination]`
 Copy from one directory to other
-
-`cd`
+* `cd`
 Change directory
-
-`cat`
+* `cat`
 Concatenate or view
 
 ---
@@ -63,25 +54,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls`  
+* `ls`  
 List directory contents
-
-`ls -a`  
+* `ls -a`  
 List directory, inculde hidden
-
-`ls -l`  
+* `ls -l`  
 List directory, long format
-
-`ls -lh`  
+* `ls -lh`  
 List directory, long format, human-readable file size
-
-`ls -lah`  
+* `ls -lah`  
 List directory, include hidden, long format, human-readable file-size
-
-`ls -t`  
+* `ls -t`  
 List directory, sorted by last modified
-
-`ls -Glp`  
+* `ls -Glp`  
 List direcotry, long format without group names, append
 
 
