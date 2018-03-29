@@ -24,3 +24,11 @@ def main(script):
 
 if __name__ == '__main__':
     main(*sys.argv)
+
+    #2002FemREsp.dat.gz
+    
+def readFemResp(dct_file='2002FemResp.dct', dat_file='2002FemResp.dat.gz'):
+    dct = thinkstats2.ReadStataDct(dct_file)
+    df = dct.ReadFixedWidth(dat_file, compression='gzip')
+    CleanFemResp(df)
+    return df
