@@ -43,5 +43,5 @@ The mean weight of non-firstborn babies was found to be 7.326 lb.
 The calculated Cohen Effect Size had a magnituted of 0.089.
 Compared to the effect size of first vs non-first born children, this effect size is 0.081 times that of the effect on pregnancy lengths.
 
-[](wgthist.png)
+![histogram](wgthist.png)
 
