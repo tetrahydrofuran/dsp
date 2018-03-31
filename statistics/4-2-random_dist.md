@@ -21,4 +21,4 @@ thinkplot.Show(xlabel='Value', ylabel='Probability')
 ![pmf](randpmf.png)
 ![cdf](randcdf.png)
 
-The PMF shows that all values in the range of random.random() have approximately equal chance of being selected. The CDF shows that the cumulative probability linearly increases down the range. Both these graphs indicate that the random.random() function is working as intended.
+The PMF shows that all values in the range of `random.random()` have approximately equal chance of being selected. The CDF shows that the cumulative probability linearly increases down the range. Both these graphs indicate that the `random.random()` function is working as intended.
