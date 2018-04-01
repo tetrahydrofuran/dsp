@@ -88,7 +88,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 
 Applying Bayes' Theorem provides the following equation:  
-![img](http://www.sciweavers.org/tex2img.php?eq=P%28identical%20%7C%20twin%20brother%29%20%3D%20%5Cfrac%7BP%28twin%20brother%20%7C%20identical%29%20P%28identical%29%7D%7BP%28twin%29%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+`P(identical | twin brothers) = P(twin brothers | identical) / P(twin brothers) * P(identical)
 
 The probability of being twin brothers given that identical twins are present is `1/2`, as the possible outcomes are twin brothers or twin sisters, with equal probability of occuring.
 
