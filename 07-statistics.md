@@ -87,17 +87,17 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
 
-Applying Bayes' Theorem provides the following equation:  
-`P(identical | twin brothers) = P(twin brothers | identical) / P(twin brothers) * P(identical)`
-
-The probability of being twin brothers given that identical twins are present is `1/2`, as the possible outcomes are twin brothers or twin sisters, with equal probability of occuring.
-
-The probability of being an identical twin is given to be `1/300`.
-
-The probability of being twin brothers is given by the sum of the probabilities of identical twins producing twin brothers, and of fraternal twins producing twin brothers.  For identical twins, this is `1/300 * 1/2`, from above.  
-For fraternal twins, since the twins do not necessarily need to be the same gender, the probability is `1/4 * 1/125`, where `1/4` represents the possibility of both twins being boys, and `1/125` is the probability of fraternal twins given.
-
-Put together, this gives Elvis' probability of being an identical twin as `5/11`.
+>Applying Bayes' Theorem provides the following equation:  
+>`P(identical | twin brothers) = P(twin brothers | identical) / P(twin brothers) * P(identical)`
+>
+>The probability of being twin brothers given that identical twins are present is `1/2`, as the possible outcomes are twin brothers or twin sisters, with equal probability of occuring.
+>
+>The probability of being an identical twin is given to be `1/300`.
+>
+>The probability of being twin brothers is given by the sum of the probabilities of identical twins producing twin brothers, and of fraternal twins producing twin brothers.  For identical twins, this is `1/300 * 1/2`, from above.  
+>For fraternal twins, since the twins do not necessarily need to be the same gender, the probability is `1/4 * 1/125`, where `1/4` represents the possibility of both twins being boys, and `1/125` is the probability of fraternal twins given.
+>
+>Put together, this gives Elvis' probability of being an identical twin as `5/11`.
 
 
 
