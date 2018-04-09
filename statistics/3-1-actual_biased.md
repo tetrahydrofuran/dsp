@@ -22,3 +22,18 @@ thinkplot.Show(xlabel='Kids in Household', ylabel='PMF')
 ![PMF](normpmf.png)
 
 The biased PMF accurately represents what the outcome of a survey on household children may look like.
+
+```python
+sum = 0
+for k, v in actual.Items():
+    sum += k * v
+    i += 1
+
+print("The average number of children in a household is: ", sum)
+
+sum = 0
+for k, v in survey.Items():
+    sum += k * v
+    i += 1
+print("The average number of children in a household as taken from a survey would be: ", sum)
+```
